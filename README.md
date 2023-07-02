@@ -11,9 +11,9 @@ The [raw dataset](https://livejohnshopkins-my.sharepoint.com/personal/zbian4_jh_
 We employ a pre-trained [HD-BET model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6865732/) to extract the brain region by removing the skull. Subsequently, we utilize the registration function of the [ANTsPy library](https://antspy.readthedocs.io/en/latest/registration.html) to align the images to the T1w reference. 
 
 ## Environment
-### Python 3.9.16
-PyTorch 2.0.0
-NiBabel 5.1.0
-NumPy 1.24.3
-Matplotlib 3.7.1
+Python 3.9.16<br>
+PyTorch 2.0.0<br>
+NiBabel 5.1.0<br>
+NumPy 1.24.3<br>
+Matplotlib 3.7.1<br>
 tqdm 4.65.0
