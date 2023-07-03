@@ -30,10 +30,10 @@ We copy the design of the U-Net architecture to set up the generator and develop
 
 We set a ratio of 1:20 to train generator for one batch and discriminator for the next twenty batches. The ration will increase with iteration and finally reach 1:2. This setting would allow the CGAN reach a minimal generator loss of 1.8190 at epoch 25. The collapse happens at epoch 30 with a relatively high loss. We still need to fine-define a more balanced loss and try different architectures.
 
-
-<img src="./image/GAN%20Loss.png" alt="Image" width="600">
-<img src="./image/cgan%20iter.png" alt="Image" width="600">
-
+<p align="center">
+<img src="./image/GAN%20Loss.png" alt="Image" width="400">
+<img src="./image/cgan%20iter.png" alt="Image" width="400">
+</p>
 
 ## Prerequisite
 ### Dataset
