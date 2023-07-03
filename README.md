@@ -10,6 +10,20 @@ This project aims to synthesize Fractional Anisotropy (FA) and Apparent Diffusio
 <img src="./image/attach.png" alt="Image" width="220">
 </div>
 
+# Results 
+The FA network converges and get the minimal MAE loss 0.0079 at epoch 28. For ADC learning, there is still spike and plummet after 30 epochs. But they are of very small scale and hence be regarded as convergence. We find the minimal MAE loss 0.0348 at epoch 24.  
+
+## FA Synthesis
+<div>
+<img src="./image/Unet%20Loss.png" alt="Image" width="600">
+<img src="./image/fa%20demo.png" alt="Image" width="220">
+</div>
+
+
+
+
+
+
 # Prerequisite
 ## Dataset
 The [raw dataset](https://livejohnshopkins-my.sharepoint.com/personal/zbian4_jh_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzbian4%5Fjh%5Fedu%2FDocuments%2FMedIA%5FProject2&ga=1) of 200 subjects are available, each containing four different types (T1w, T2w, FA, ADC) of MRI images.
