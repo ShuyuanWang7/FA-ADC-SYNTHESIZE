@@ -19,7 +19,11 @@ The FA network converges and get the minimal MAE loss 0.0079 at epoch 28. For AD
 <img src="./image/fa%20demo.png" alt="Image" width="220">
 </div>
 
-
+## ADC Synthesis
+<div>
+<img src="./image/ADC%20Unet%20Loss.png" alt="Image" width="600">
+<img src="./image/adc%20demo.png" alt="Image" width="220">
+</div>
 
 
 
