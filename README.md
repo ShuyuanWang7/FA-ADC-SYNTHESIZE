@@ -6,7 +6,7 @@ This project aims to synthesize Fractional Anisotropy (FA) and Apparent Diffusio
 
 # Architecture
 <div>
-<img src="./image/Architecture.png" alt="Image" width="500">
+<img src="./image/Architecture.png" alt="Image" width="600">
 <img src="./image/attach.png" alt="Image" width="200">
 </div>
 
