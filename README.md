@@ -25,7 +25,14 @@ The FA network converges and get the minimal MAE loss 0.0079 at epoch 28. For AD
 <img src="./image/adc%20demo.png" alt="Image" width="220">
 </div>
 
+### CGAN
+We copy the design of the U-Net architecture to set up the generator and develop five layers of 3D convolution to distinguish the images. We use MAE loss to evaluate the image quality of the generator and BCE loss to quantify the real and fake judgement. A smoothing label strategy is applied to prevent the model from being too confident about the binary calss labels. 
 
+We set a ratio of 1:20 to train generator for one batch and discriminator for the next twenty batches. The ration will increase with iteration and finally reach 1:2. This setting would allow the CGAN reach a minimal generator loss of 1.8190 at epoch 25. The collapse happens at epoch 30 with a relatively high loss. We still need to fine-define a more balanced loss and try different architectures.
+
+
+<img src="./image/GAN%20Loss.png" alt="Image" width="600">
+<img src="./image/cgan%20iter.png" alt="Image" width="600">
 
 
 ## Prerequisite
